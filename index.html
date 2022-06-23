@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de datos con ChartJS</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="style.css/>
+  
+  
+</head>
+
+<body>
+    <main>
+
+        <h3>Montañas rusas: los datos</h3>
+        <p>Visualización de estadísticas globales</p>
+
+        <hr>
+
+        <h2 class="loading">Esperando respuesta de la API...</h2>
+
+            <figure>
+                <p>Gráfico de área polar</p>
+                <h3>Montañas rusas por país</h3>
+                <canvas id="chart2"></canvas>
+            </figure>
+        </section>
+
+        <section class="cols-3">
+            <figure>
+                <p>Gráfico radial</p>
+                <h3>Altura</h3>
+                <canvas id="chart3"></canvas>
+            </figure>
+
+            <figure>
+                <p>Gráfico de <em>donut</em></p>
+                <h3>Modelos</h3>
+                <canvas id="chart4"></canvas>
+            </figure>
+
+
+    </main>
+
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <!-- Styles for charts -->
+    <script src="js/chartStyles.js"></script>
+
+    <!-- DCharts development -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
